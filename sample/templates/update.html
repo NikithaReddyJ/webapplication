@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="C:\Users\ni20090110\Desktop\Nikitha Front End\css\table2style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+i{
+width:26px;
+float: left;
+text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-container w3-card-4">
+
+  <table class="w3-table w3-bordered",align="center">
+
+<tr>
+<td><input type="checkbox" name="v" value="B"> </td>
+
+<td><form action="/updateview/{{datat.id}}/" method="post">{% csrf_token %}
+    <input type="text" placeholder="{{datat.content}}" name="content"/>
+    <input type="submit" value="update" name="con"/>
+</form>
+</td>
+</tr>
+</div>
+
+</body>
+</html>

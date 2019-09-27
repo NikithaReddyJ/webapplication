@@ -1,0 +1,22 @@
+<style>
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.topnav {
+  overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  color:#686868;
+  text-align: center;
+  padding: 14px 85px;
+  background-color:#E8E8E8;
+  text-decoration: none;
+  font-size: 12px;
+
+}
+.topnav a.active {
+   color: black;
+}
+</style>

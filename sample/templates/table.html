@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+
+<div class="w3-container">
+
+
+  <table class="w3-table w3-bordered",align="center">
+    <tr>
+      <th>Name</th>
+      <th>Country</th>
+      <th>City</th>
+      <th>Salary</th>
+    </tr>
+    {% for i in alldata %}
+    <tr>
+        <td>{{i.name}}</td>
+        <td>{{i.country}}</td>
+        <td>{{i.city}}</td>
+        <td>{{i.salary}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+
+</body>
+</html>

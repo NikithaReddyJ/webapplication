@@ -1,0 +1,19 @@
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+h2,h1{
+  text-align: right;
+  color: gray;
+font-size: 18px;
+}
+p
+{
+text-align: left;
+  color: violet;
+}
+
+</style>

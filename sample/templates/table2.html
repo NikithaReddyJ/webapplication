@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="C:\Users\ni20090110\Desktop\Nikitha Front End\css\table2style.css">
+
+<body>
+
+<form class="w3-container w3-card-4">
+
+  <table class="w3-table w3-bordered",align="center">
+    <br><tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Salary</th>
+      <th>Country</th>
+        </tr>
+    {% for i in data %}
+    <tr>
+
+      <td>{{i.number}}</td>
+      <td>{{i.name}}</td>
+      <td>{{i.salary}}</td>
+      <td>{{i.country}}</td>
+    </tr>
+        {% endfor %}
+
+  </table>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+
+	data: [
+	{
+		// Change type to "bar", "area", "spline", "pie",etc.
+		type: "column",
+		dataPoints: [
+			{ label: "apple",  y: 10 },
+			{ label: "orange", y: 15  },
+			{ label: "banana", y: 25  },
+			{ label: "mango",  y: 30  },
+			{ label: "grape",  y: 28  }
+		]
+	}
+	]
+});
+chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 270px; width: 80%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+</body>
+</html>

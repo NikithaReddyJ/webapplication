@@ -1,0 +1,54 @@
+<html>
+<head>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'app1/userstyle.css' %}" type="text/css">
+<link rel="stylesheet" href="C:\Users\ni20090110\Desktop\Nikitha Front End\css\userstyle.css">
+
+<style>
+input[type=text] {
+  width: 30%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  text:gray;
+  border-bottom: .5px ridge gray;
+}
+body{
+    padding-top:15px;
+}
+</style>
+
+
+</head>
+<body>
+
+<div class="container">
+
+  <form action="/userview/" method="post">{% csrf_token %}
+
+  <input name="company" placeholder="Company(disabled)" type="text"  />
+
+  <input name="username" placeholder="Username" type="text" />
+
+  <input name="email" placeholder="Email address" type="text" />
+
+  <input name="firstname" placeholder="Firstname" type="text" />
+
+  <input name="lastname" placeholder="Lastname" type="text" /> <br>
+
+  <input name="city" placeholder="City" size="4" type="text" />
+
+  <input name="country" placeholder="Country" type="text" />
+
+  <input name="postalcode" placeholder="Postal code" type="text" />
+
+<p>About me</p><br><br>
+<p>Lamborghini Mercy,Your chick she so thirsty,I'm in that seat Lambo.</p><br><br><br><br>
+<hr>
+<input type="submit" value="UPDATE PROFILE" name="val">
+</form>
+
+</div>
+</body>
+</html>

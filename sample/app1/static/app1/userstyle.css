@@ -1,0 +1,37 @@
+<style>
+input[type=text] {
+  box-sizing: border-box;
+  border: none;
+}
+
+.container{
+ border-radius:20px;
+  background-color: #F5F5F5;
+  padding: 20px;
+
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.button {
+  background-color: violet;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button4 {
+border-radius: 12px;
+}
+</style>
